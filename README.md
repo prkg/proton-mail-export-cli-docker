@@ -7,5 +7,5 @@ Simple Dockerfile for the [Proton Mail Export CLI Tool](https://proton.me/suppor
 Clone repo and run
 
 ```bash
-docker build -t proton-export . docker run --rm -v $(pwd):/export -it proton-export
+docker build -t proton-export . && docker run --rm -v $(pwd):/export -it proton-export
 ```
